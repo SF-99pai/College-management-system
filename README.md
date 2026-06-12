@@ -46,45 +46,6 @@ app/
 └── main.py
 ```
 
-## Installation
-
-1. Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-2. Navigate to the project directory
-
-```bash
-cd College-management-system
-```
-
-3. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-4. Activate the virtual environment
-
-```bash
-venv\Scripts\activate
-```
-
-5. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-6. Configure PostgreSQL database settings.
-
-7. Run the application
-
-```bash
-uvicorn app.main:app --reload
-```
 
 ## API Documentation
 
@@ -115,6 +76,3 @@ This project helped in understanding:
 * Microservices Architecture
 * Docker Deployment
 
-## Author
-
-Developed as a learning and portfolio project to explore modern backend development using Python and FastAPI.
